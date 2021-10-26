@@ -1,0 +1,477 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#header{
+    background-color: rgb(70, 62, 62);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 120px;
+    align-items: center;
+}
+        .logo{ 
+            margin-left: 120px;
+            flex:1 1 auto;
+            }
+            .confbsas{
+                color: white;
+                display: inline-block;
+                font-weight: 400;
+                }
+        .nav{
+            margin-left: 220px;
+            flex:1 1 auto;    }   
+            .links1{
+                text-decoration: none;
+                color: white;
+                font-size: 25px;
+                margin: 0 20px 0 0;}
+                .links1:hover {
+                    color:yellow
+                }
+            .links2{
+                text-decoration: none;
+                color: rgb(107, 100, 100);
+                font-size: 25px;
+                margin: 0 20px 20px 0;
+            }
+                .links2:hover {
+                    color: white;
+                }
+            .links3{
+                text-decoration: none;
+                color: rgb(34, 109, 24);
+                font-size: 25px;
+                margin: 0 20px 20px 0;
+            }
+                .links3:hover {
+                    color: white;
+                }
+
+.main{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-flow: column nowrap;
+    }
+    #foto{ 
+        height: 790px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/imag/ba1.jpg);
+        background-position:bottom;
+        background-size: cover;
+        background-attachment:contain;
+        display: flex;
+        align-items:center;
+        justify-content:flex-end;
+        }
+        .cajafoto{
+            width: 820px;
+            text-align: end;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            margin-right: 150px;
+            }
+            .h1foto{
+            color: white;
+            margin-left: 575px;
+            font-size: 50px;
+            }
+            .textofoto{
+            font-weight: 450;
+            color: white;}
+            .botonfoto1{
+            width: 220px;
+            height: 50px;
+            margin-top: 25px;
+            margin-right: 20px;
+            transition: all 1s ease;
+            font-size: 22px;
+            font-weight: 600;
+            }
+            .botonfoto1:hover {
+            background-color: black;
+            }
+            .botonfoto2{
+            width: 220px;
+            height: 50px;
+            margin-top: 25px;
+            font-size: 22px;
+            font-weight: 600;
+            }
+
+    #conoce{
+        display: flex;
+        flex-flow: column wrap;
+        height: auto;
+    }
+        .conoce{
+        text-align: center;
+        flex: 1 1 auto;
+        padding-top: 15px;
+        font-size: 18px;
+    }
+        .oradores{
+        text-align: center;
+        flex:1 1 auto;
+    }
+        .persogral{ 
+        display: flex;
+        flex-flow: row wrap; 
+        align-content: center; 
+        justify-content: center; 
+        padding-bottom: 35px; 
+        }
+        .jobs1{
+            height: 700px;
+            width: 420px;
+            display: flex;
+            flex-flow: row wrap;
+            margin-right: 40px;
+            margin-left: 280px;
+            border-radius: 5px;
+            border: 1px dotted rgba(0, 0, 0, 0.1); 
+        }
+            .jobs1 img{
+                width: 100%;
+                border-radius: 5px 5px 0 0;
+            }
+        .jobs2{
+            height: 700px;
+            width: 420px;
+            display: flex;
+            flex-flow: row wrap;
+            margin-right: 40px;
+            border-radius: 5px;
+            border: 1px dotted rgba(0, 0, 0, 0.1);
+            }
+            .jobs2 img{
+                width: 100%;
+                border-radius: 5px 5px 0 0;
+                }
+        .jobs3{
+            height: 700px;
+            width: 420px;
+            display: flex;
+            flex-flow: row wrap;
+            margin-right: 250px;
+            border-radius: 5px;
+            border: 1px dotted rgba(0, 0, 0, 0.1);
+                }
+            .jobs3 img{
+                    width: 100%;
+                    border-radius: 5px 5px 0 0;
+                    }
+        .lorem{
+            margin-left: 25px;
+        }
+        .botonjava{
+            display: flex;
+            height: 25px;
+            font-weight: 700;
+            border: 1px solid rgb(255, 191, 16);
+            color: black;
+            background-color: rgb(255, 191, 16);
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 25px;
+            margin-right: 5px;
+            margin-left: 25px;
+            padding-left: 5px;
+            padding-right: 5px;
+            }
+        .botonreact{
+            display: flex;
+            height: 25px;
+            font-weight: 700;
+            border: 1px solid rgb(27, 165, 165);
+            color: white;
+            background-color: rgb(27, 165, 165);
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 25px;
+            padding-left: 5px;
+            padding-right: 5px;
+            }
+        .botonnegocios{
+            display: flex;
+            height: 25px;
+            font-weight: 700;
+            border: 1px solid gray;
+            color: white;
+            background-color: gray;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 25px;
+            margin-left: 25px;
+            margin-right: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .botonstar{
+            display: flex;
+            height: 25px;
+            font-weight: 700;
+            border: 1px solid rgb(192, 3, 3);
+            color: white;
+            background-color: rgb(192, 3, 3);
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 25px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .h3{
+            margin-top: 50px;
+            margin-left: -148px;
+            margin-bottom: -3px;
+        }
+        .h31{
+            margin-top: 50px;
+            margin-left: -162px;
+            margin-bottom: -3px;
+        }
+    #hawaioctubre{
+        display: flex;
+        flex-flow: row wrap;
+        height: 600px;
+    }
+    #hawaioctubre img{
+        width: 50%;
+        height: 100%;
+
+    }
+        .hawai{
+            flex: 0 1 auto;
+        }
+        .octubre{
+            background-color: rgb(43, 40, 39);
+            flex: 1 1 0%;
+            color: white;
+            margin-left: 1px;
+        }
+            .bs-oct{
+                margin-top: 20px;
+                margin-left: 15px;
+            }
+            .texto{
+                margin-left: 15px;
+                margin-right: 10px;
+                font-size: 18px;
+            }
+            .botonoctubre{
+                color: white;
+                margin-left: 15px;
+                font-size: 18px;
+            }
+
+
+    #comentarios{
+        margin-top: 20px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;    
+    }
+        .text{
+            text-align: center;
+            font-size: 20px;
+        }
+        .form1{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;  
+        }
+        .box{
+            font-size: 25px;
+            color: gray;
+            border-radius: 10px;
+        }
+        .col-auto{
+            display: flex;
+            flex:1 1 auto;
+        }
+            .charla{
+                color:gray
+            }
+            .enviar{
+                background-color: rgb(144, 221, 29);
+                height: 50px;
+                border:0px;
+                font-size: 22px;
+            }
+
+#footer{
+    background:linear-gradient(to right, rgb(15, 14, 102), rgb(61, 81, 192));
+    height: 110px;
+    }
+    .navpie{
+        margin-top: 25px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-items: center;
+        margin-left: 270px;
+        flex: 1 1 auto;
+    }
+        .pie{
+        text-decoration: none;
+        margin-right: 110px;
+        font-size: 20px;
+        color: white;
+        }
+            .pie:hover{
+                color: yellow;
+            }
+
+
+@media all and (max-width:1715px){
+    .navpie{
+        margin-left: 50px;
+    }
+    .pie{
+        margin-right: 65px;
+    }
+}
+
+
+@media all and (max-width:1200px){
+    .nav{
+        margin-left: 0px;
+   }   
+    #header{
+        height: auto;
+        flex-flow:column;
+    }
+    .jobs1{
+        margin-left: 25px;
+        }
+    .jobs3{
+        margin-right: 0px;
+            }
+    .navpie{
+        margin-left: 15px;
+    }
+    .pie{
+        margin-right: 30px;
+        
+    }
+}
+
+
+@media all and (max-width:1000px){
+    #foto{
+        height: 450px;
+        }
+    .cajafoto{
+        text-align: center;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin-right: 50px;
+        margin-left: 50px;
+        }
+    .h1foto{
+        font-size: 35px;
+        margin: 0px;
+        }
+    .textofoto{
+        font-size: 18px;}
+    .botonfoto1{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        margin-right: 0px;
+        }
+    .botonfoto2{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        }
+
+    
+    .hawaioctubre{
+            flex-direction: column;
+        }
+}
+@media all and (max-width:895px){
+    .jobs1{
+        margin-right: 25px;
+    }
+    .jobs2{
+        margin-right: 25px;}
+
+    #footer{
+        height: auto;
+    }
+    .navpie{
+        /* flex-flow: column wrap; */
+        margin-left: 15px;
+        align-items: left;
+        justify-items: left;
+
+    }
+    .pie{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width:864px){
+    .jobs2{
+        margin-right: 0px;}
+}
+
+@media all and (max-width:750px){
+
+    #hawaioctubre{
+        flex-flow: column nowrap;
+        height: auto;
+    }
+    #hawaioctubre img{
+        width: 100%;
+    }
+        .octubre{
+            margin-left: 0px;
+            padding-bottom: 20px;
+        }
+            .bs-oct{
+                margin-top: 20px;
+                margin-left: 15px;
+            }
+            .texto{
+                margin-left: 15px;
+                margin-right: 10px;
+                font-size: 15px;
+            }
+            .botonoctubre{
+                margin-left: 15px;
+                font-size: 15px;
+            }
+}
+
+@media all and (max-width:500px){
+    .jobs1{
+            height: auto;
+            width: auto;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    .jobs2{
+            height: auto;
+            width: auto;
+            margin-right: 0px;
+            }
+    .jobs3{
+            height: auto;
+            width: auto;
+            }
+}
